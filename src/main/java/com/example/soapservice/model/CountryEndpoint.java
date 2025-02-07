@@ -17,7 +17,7 @@ public class CountryEndpoint {
 
     private final CountryRepository countryRepository;
 
-    @Autowired
+    @Autowired //repository bağlar
     public CountryEndpoint(CountryRepository countryRepository) {
         this.countryRepository = countryRepository;
     }

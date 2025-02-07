@@ -68,7 +68,6 @@ public class CountryRepository {
     public Country findByName(String name) {
         Assert.notNull(name, "The country's name must not be null");
 
-        // Veritabanında arama yap
         return countries.get(name);
     }
 }
